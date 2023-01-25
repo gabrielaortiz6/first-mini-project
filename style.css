@@ -37,12 +37,14 @@ a {
     color: black;
 }
 
-img  {
+img,
+h2  {
     display: block;
     width: 40%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 footer {
@@ -53,6 +55,17 @@ footer {
 
 div {
     margin: auto;
+}
+
+h4 {
+    background-color: white;
+}
+
+input {
+    width: 50%;
+    padding: 25px;
+    margin: 25px;
+    background-color: white;
 }
 
 .contact-form{
@@ -71,15 +84,4 @@ div {
     background-color: white;
     position: relative;
     top: 50px;
-}
-
-h4 {
-    background-color: white;
-}
-
-input {
-    width: 50%;
-    padding: 25px;
-    margin: 25px;
-    background-color: white;
 }
